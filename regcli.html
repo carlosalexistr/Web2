@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+            <link crossorigin="anonymous" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" rel="stylesheet">
+            </link>
+            <link href="css/login.css" rel="stylesheet" type="text/css">
+            </link>
+            <title>
+                Domicilios rapidos, seguros y economicos.
+            </title>
+        </meta>
+    </head>
+    <body>
+        <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="container-fluid">
+                <ul class="nav navbar-nav pull-left">
+                    <li class="nav-item">
+                        <p class="navbar-text">
+                            TeEnviamosLoQueSea SAS
+                        </p>
+                    </li>
+                </ul>
+                <ul class="nav navbar-nav pull-right">
+                    <li class="nav-item">
+                        <a class="nav-link" href="admin.html">
+                            Inicio
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="regcli.html">
+                            Regsitrar Cliente
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="regmen.html">
+                            Registrar Mensajero
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="regenv.html">
+                            Registrar Envio
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">
+                            Salir
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <div class="container bg">
+            <div class="row">
+                <div class="col-md-12">
+                    <h1 class="primary text-center">
+                        Registrar Cliente
+                    </h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-3">
+                    <form action="#" class="contact_form" id="contact_form" method="post" onsubmit="return validar();" runat="server">
+                        <div class="form-group">
+                            <label for="nombre">
+                                Nombre:
+                            </label>
+                            <input class="form-control" id="nombre" type="text">
+                            </input>
+                        </div>
+                        <div class="form-group">
+                            <label for="cedula">
+                                Cedula:
+                            </label>
+                            <input class="form-control" id="cedula" type="text">
+                            </input>
+                        </div>
+                        <div class="form-group">
+                            <label for="telefono">
+                                Numero Telefonico:
+                            </label>
+                            <input class="form-control" id="telefono" type="text">
+                            </input>
+                        </div>
+                        <div class="form-group">
+                            <label for="ciudad">
+                                Ciudad:
+                            </label>
+                            <input class="form-control" id="ciudad" type="text">
+                            </input>
+                        </div>
+                        <button class="btn btn-default" type="submit">
+                            Enviar
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <nav class="navbar navbar-default navbar-fixed-bottom">
+            <div class="container-fluid">
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a href="https://www.facebook.com/carlosalexiscolombia" target="_blank">
+                            Facebook
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://twitter.com/krlosalexis" target="_blank">
+                            Twiter
+                        </a>
+                    </li>
+                </ul>
+                <ul class="nav navbar-nav pull-right">
+                    <li class="nav-item">
+                        <a class="nav-link" href="http://ingsistemas.ufps.edu.co">
+                            Creado por  TKSIS Ltda
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js">
+        </script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js">
+        </script>
+        <script src="js/cli.js">
+        </script>
+    </body>
+</html>
